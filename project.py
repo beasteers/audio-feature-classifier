@@ -159,7 +159,7 @@ elif action == 'delete':
     if delete in ['y', '', 'yes', 'yep', 'of course', 'yes please', "I've never been so sure in my damn life."]:
         os.remove(in_cwd(hmmFile(model_name)))
 
-# I'm not leaving this function just because I don't wanna accidentally clear anyone's harddrives
+## I'm not uncommenting this function just because I don't wanna accidentally clear anyone's harddrives
 # elif action == 'clean':
 #     import shutil
 #     delete = raw_input("delete entire model collection? y/[n]".format(model_name))
