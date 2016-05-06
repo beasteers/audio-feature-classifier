@@ -39,7 +39,8 @@ You can go back and record more by running the command with the same name and it
 
 ## Build models
 Once the vectors have been collected, the models must be constructed. To do this, run: 
-```./project.py model <name>
+```
+./project.py model <name>
 ```
 To remodel it, run the same command. No need to delete the old file. The old file will be backed up by default.
 
