@@ -1,7 +1,6 @@
 from pomegranate import *
 import numpy as np
 import json, pickle, os
-import matplotlib.pyplot as plt
 import scipy.cluster.vq as sp
 
 

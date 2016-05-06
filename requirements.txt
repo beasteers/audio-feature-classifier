@@ -1,0 +1,5 @@
+pyqtgraph==0.9.10
+pyaudio==0.2.9
+pomegranate==0.4.0
+numpy==1.10.1
+scipy==0.17.0
