@@ -23,7 +23,7 @@ To receive any meaningful results, make sure you have at least two models as the
 To run the classification type: `./project.py classify` and it will run using all of the models found in the pattern ‘models/*/*.hmm.json’. To omit a model, just drag the parent folder to some other path that doesn’t match that pattern i.e. ‘models/storage/*/*.hmm.json
 
 ####  Delete model
-If you’re too lazy to find the *.hmm.json file in the directory, you can just run `./project.py delete <name>` and it will get rid of it for you. To rebuild the model just rerun the model command above.
+If you’re too lazy to find the *.hmm.json file in the directory (like me), you can just run `./project.py delete <name>` and it will get rid of it for you. To rebuild the model just rerun the model command above.
 
 ####  Model info
-If you want to look at the model transition matrix, just use: `./project.py info <name>`
+If you want to look at a model transition matrix, just use: `./project.py info <name>`
